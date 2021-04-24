@@ -11,13 +11,13 @@ Resources:
       InstanceTenancy: default
       Tags:
        - Key: Name
-         Value: IBM
+         Value: WIPRO
   InternetGateway:
     Type: AWS::EC2::InternetGateway
     Properties:
       Tags:
       - Key: Name
-        Value: IBM-IGW
+        Value: WIPRO-IGW
   AttachGateway:
     Type: AWS::EC2::VPCGatewayAttachment
     Properties:
